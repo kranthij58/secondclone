@@ -1,0 +1,240 @@
+.middlesection3{
+    display: flex;
+   
+    justify-content: center;
+    padding-left:100px ;
+    padding-right: 100px;
+    padding-top:50px ;
+    padding-bottom: 40px;
+   
+}
+
+.planname{
+    
+    font-size: 40px;
+    align-self: center;
+    margin-bottom: 9px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.planinfo{
+    font-size: 20px;
+    font-family: "inter" , sans-serif;
+    color: #7f7f7c;
+    line-height: 30px;
+    margin-top:0px;
+    
+    
+}
+
+.abovefooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.planpricebox{
+    display: flex;
+    flex-direction: column;
+    border:2px solid;
+    border-color:rgb(255, 199, 94) ;
+    border-radius: 10px;
+    background-color:#FBF8F3 ;
+    width:80%;
+    height:100%;
+    padding:30px;
+    margin-top: 47px;
+}
+
+
+.monthly{
+    font-size: 40px;
+    color:#7f7f7c;
+    font-family: "inter", sans-serif;
+    margin-bottom: 0px;
+    margin: 0px;
+
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0px;
+}
+
+.pricetag{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pricee{
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0px;
+    margin-top: 4px;
+}
+.mo{
+    font-family: "inter" , sans-serif;
+    color: #7f7f7c;
+    font-size: 25px;
+    
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top:20px;
+   
+    justify-content: space-between;
+    
+    border-bottom: 1px #989898 solid;
+    border-top:1px #a1a1a1 solid;
+}
+
+.in1{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.unlim{
+    font-family: "inter" , sans-serif;
+    color: #7f7f7c;
+    font-size: 17px;
+    margin-left: 5px;
+}
+.bott-btn{
+    display: flex;
+    background-color:#1DA1F2 ;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    white-space: nowrap;
+    transition: transform 0.3s ease-in-out ,margin 0.3s ease-in-out,background-color 0.3s ease-in-out;
+}
+
+.box3{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.tweetbott{
+    width:30px;
+}
+.tweetbottom{
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    transition: all 0.30s ease-in-out;
+    color: white;
+    font-weight: 600;
+    margin:0px;
+    margin-left: 8px;
+
+}
+
+@media (min-width:391px)and (max-width:599px){
+    .middlesection3{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+    }
+
+    .planname{
+        font-size: 35px;
+    }
+    .planinfo{
+       display: none;
+
+}
+
+.monthly{
+    font-size: 30px;
+}
+.pricee{
+    font-size: 45px;
+
+}
+.mo{
+    font-size: 18px;
+}
+
+.Checkmark{
+    width:27px;
+}
+
+.unlim{
+    font-size: 15px;
+}
+.bott-btn{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+}
+
+@media(min-width:600px) and (max-width:1300px){
+    .middlesection3{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(min-width:20px) and (max-width:390px)
+{
+    .middlesection3{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+    }
+
+    .planname{
+        font-size: 30px;
+    }
+    .planinfo{
+       display: none;
+
+}
+
+.monthly{
+    font-size: 26px;
+}
+.pricee{
+    font-size: 40px;
+
+}
+.mo{
+    font-size: 15px;
+}
+
+.Checkmark{
+    width:20px;
+}
+.unlim{
+    font-size: 13px;
+}
+.bott-btn{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.abovefooter{
+    transform: scale(0.8);
+}
+
+}

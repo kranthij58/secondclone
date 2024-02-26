@@ -1,0 +1,70 @@
+body{
+    padding: 0px;
+}
+
+.footers{
+    display: flex;
+    justify-content: space-between;
+    background-color:#D7F5F5 ;
+    padding-left: 100px;
+    padding-right:100px ;
+    height: 40px;
+    padding-top:15px;
+    padding-bottom: 20px;
+    align-items:center;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.left-sections{
+     
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+font-weight:600;
+font-style: italic;
+color: #3180F5;
+
+}
+
+
+.terms{
+    display: flex;
+   
+}
+
+.use{
+    font-size: 20px;
+    font-family: "inter", sans-serif;
+    margin-left: 10px;
+    font-weight: medium;
+}
+
+.Twitterblack{
+    width: 30px;
+    margin-right: 10px;
+}
+.terms{
+    background-color: #D7F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width:20px)and (max-width:599px)
+{
+    .footers{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .terms{
+        transform: scale(0.8);
+    }
+
+}
+
+@media(min-width:600px) and (max-width:1300px){
+    .footers{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
